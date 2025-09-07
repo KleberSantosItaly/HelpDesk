@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "BC Kleber Sandbox",
+            "request": "launch",
+            "type": "al",
+            "tenant": "b09726a5-0cc9-4360-b6ce-e9a6d2434951",
+            "environmentType": "Sandbox",
+            "environmentName": "Kleber",
+            "startupCompany": "CRONUS IT",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "startupObjectId": 50120,
+            "startupObjectType": "Page"         
+        }
+    ]
+}
