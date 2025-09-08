@@ -1,32 +1,25 @@
 {
-  "id": "1b33da4a-9c1d-4c70-a256-d336474e9a6c",
+  "id": "0e948dc3-fa60-40d4-ba79-f29e0f898656",
   "name": "HelpDesk",
-  "publisher": "Default Publisher",
+  "publisher": "DynamicsConsult",
   "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
-  "dependencies": [],
-  "screenshots": [],
-  "platform": "1.0.0.0",
-  "application": "26.0.0.0",
-  "idRanges": [
+
+  "platform": "24.0.0.0",
+  "application": "24.0.0.0",
+  "runtime": "14.0",
+
+  "dependencies": [
     {
-      "from": 50100,
-      "to": 50149
+      "id": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "name": "Base Application",
+      "publisher": "Microsoft",
+      "version": "24.0.0.0"
+    },
+    {
+      "id": "63ca2fa4-4f07-4f20-85ae-7a0e1f2f5c79",
+      "name": "System Application",
+      "publisher": "Microsoft",
+      "version": "24.0.0.0"
     }
-  ],
-  "resourceExposurePolicy": {
-    "allowDebugging": true,
-    "allowDownloadingSource": true,
-    "includeSourceInSymbolFile": true
-  },
-  "runtime": "15.0",
-  "features": [
-    "NoImplicitWith"
   ]
 }
